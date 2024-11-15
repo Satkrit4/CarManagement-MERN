@@ -1,0 +1,87 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  color: #343a40;
+}
+
+.car-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.car-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+}
+
+.car-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.button-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.button-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.button-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.button-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.button-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.button-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.img-thumbnail {
+  border-radius: 5px;
+  max-height: 100px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.form-control {
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.mb-3 {
+  margin-bottom: 1.5rem !important;
+}
+
+.mx-2 {
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
+}
